@@ -8,9 +8,9 @@ function fpath(f) {
 }
 
 workshopper({
-  name: 'demo-workshopper',
-  title: 'Demo Workshopper',
-  subtitle: 'Learn how to create a workshopper lesson',
+  name: 'learnyouchildprocesses',
+  title: 'learnyouchildprocesses',
+  subtitle: 'Learn how to implement child processes in a variety of situations',
   appDir: __dirname,
   menuItems: [],
   exerciseDir: fpath('./exercises/'),
