@@ -1,17 +1,17 @@
 {
-  "name": "demo-workshopper-template",
+  "name": "learnyouchildprocesses",
   "version": "1.0.0",
-  "main": "demo-workshopper.js",
+  "main": "learnyouchildprocesses.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sam-parsons/demo-workshopper-template.git"
+    "url": "git+https://github.com/sam-parsons/learnyouchildprocesses.git"
   },
   "license": "BSD-3-Clause",
-  "bin": "./demo-workshopper.js",
+  "bin": "./learnyouchildprocesses.js",
   "bugs": {
-    "url": "https://github.com/sam-parsons/demo-workshopper-template/issues"
+    "url": "https://github.com/sam-parsons/learnyouchildprocesses/issues"
   },
-  "homepage": "https://github.com/sam-parsons/demo-workshopper-template#readme",
+  "homepage": "https://github.com/sam-parsons/learnyouchildprocesses#readme",
   "dependencies": {
     "bl": "5.0.0",
     "hyperquest": "2.1.3",
