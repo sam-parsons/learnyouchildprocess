@@ -13,3 +13,4 @@ npm-shrinkwrap.json
 */._*
 */*/._*
 package-lock.json
+test/*
