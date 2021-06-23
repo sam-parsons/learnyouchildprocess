@@ -2,7 +2,7 @@ const spawn = require('child_process').spawn;
 const path = require('path');
 const test = require('tape');
 
-const adventures = require('../menu.json');
+const adventures = require('../exercises/menu.json');
 adventures.forEach(function (name) {
   test(name, function (t) {
     t.plan(2);
