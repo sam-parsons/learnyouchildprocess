@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/sam-parsons/learnyouchildprocesses.git"
   },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
   "license": "BSD-3-Clause",
   "bin": "./learnyouchildprocesses.js",
   "bugs": {
@@ -13,7 +16,19 @@
   },
   "homepage": "https://github.com/sam-parsons/learnyouchildprocesses#readme",
   "dependencies": {
-    "workshopper": "2.7.0",
+    "workshopper-adventure": "7.0.0",
     "workshopper-exercise": "3.0.3"
+  }, 
+  "keywords": [
+    "stream",
+    "nodejs",
+    "child_process"
+  ], 
+  "author": {
+    "name": "Sam Parsons",
+    "url": "http://sam-parsons.github.io/"
+  },
+  "devDependencies": {
+    "tape": "5.2.2"
   }
 }
