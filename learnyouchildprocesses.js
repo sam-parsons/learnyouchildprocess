@@ -19,12 +19,8 @@ const shop = workshopper({
   pass: require('workshopper-adventure/default/pass'),
 });
 
-// require('./exercises/menu.json').forEach(function (name) {
-//   const dir = util.dirFromName(exerciseDir, name);
-//   const exerciseFile = path.join(dir, './index.js');
-//   shop.add({ name, dir, exerciseFile });
-// });
-
-shop.addAll(['SPAWN', 'SPAWN-STREAM', 'EXEC', 'EXECFILE', 'FORK']);
+require('./exercises/menu.json').forEach((name) => {
+  shop.add(name);
+});
 
 module.exports = shop;
