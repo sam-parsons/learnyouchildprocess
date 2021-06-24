@@ -28,5 +28,3 @@
 ## License
 
 **learnyouchildprocess** is Copyright (c) 2021 learnyouchildprocess and licenced under the BSD 3-Clause licence. All rights not explicitly granted in the BSD license are reserved. See the included LICENSE.md file for more details.
-
-**learnyouchildprocess** builds on the excellent work by [@substack](https://github.com/substack) and [@maxogden](https://github.com/maxogden) who created **[stream-adventure](https://github.com/substack/stream-adventure)** which serves as the original foundation for **learnyouchildprocess**.
