@@ -1,10 +1,6 @@
-# Learn You The Node.js Child Processes!
+# learn you the node.js child processes
 
 **An intro to Node.js child processes via a set of self-guided workshops.**
-
-[What is Node.js](https://github.com/nodeschool/what-is-node/blob/master/simple.en.md)
-
-[![NPM](https://nodei.co/npm/learnyouchildprocesses.png?downloads=true&&downloadRank=true&stars=true)](https://nodei.co/npm/learnyouchildprocesses/) [![NPM](https://nodei.co/npm-dl/learnyouchildprocesses.png?months=3&height=3)](https://nodei.co/npm/learnyouchildprocesses/)
 
 ## What is learnyouchildprocesses?
 
