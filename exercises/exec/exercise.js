@@ -1,10 +1,11 @@
 const exercise = require('../../lib/basicExercise');
+const path = require('path');
+
+const file = path.resolve(__dirname, './index.txt');
 
 exercise.addSetup(function (mode, callback) {
-  const data = 'Hello world';
-
-  this.submissionArgs.unshift(data);
-  this.solutionArgs.unshift(data);
+  this.submissionArgs.unshift(file);
+  this.solutionArgs.unshift(file);
 
   process.nextTick(callback);
 });
