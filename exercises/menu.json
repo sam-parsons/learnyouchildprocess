@@ -1,3 +1,7 @@
 [
-  "SPAWN"
+  "SPAWN",
+  "SPAWN-STREAM",
+  "EXEC",
+  "EXECFILE",
+  "FORK"
 ]

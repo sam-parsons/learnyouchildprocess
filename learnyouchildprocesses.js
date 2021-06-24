@@ -25,6 +25,6 @@ const shop = workshopper({
 //   shop.add({ name, dir, exerciseFile });
 // });
 
-shop.addAll(['SPAWN']);
+shop.addAll(['SPAWN', 'SPAWN-STREAM', 'EXEC', 'EXECFILE', 'FORK']);
 
 module.exports = shop;
