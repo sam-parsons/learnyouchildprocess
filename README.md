@@ -1,6 +1,8 @@
 # learnyouchildprocesses
 
-Learn how to implement child processes in a variety of situations.
+Learn how to implement child processes in a variety of situations. Inspired by the [learnyounode](https://github.com/workshopper/learnyounode) and [stream-adventure](https://github.com/workshopper/stream-adventure) workshops.
+
+![learnyouchildprocesses](learnyouchildprocesses.png)
 
 ## Install
 
