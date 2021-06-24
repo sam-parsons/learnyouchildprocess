@@ -6,7 +6,7 @@
 
 [![NPM](https://nodei.co/npm/learnyouchildprocesses.png?downloads=true&&downloadRank=true&stars=true)](https://nodei.co/npm/learnyouchildprocesses/) [![NPM](https://nodei.co/npm-dl/learnyouchildprocesses.png?months=3&height=3)](https://nodei.co/npm/learnyouchildprocesses/)
 
-## What is learnyounode?
+## What is learnyouchildprocesses?
 
 ![Learn You The Node.js For Much Win!](learnyouchildprocesses.png)
 
