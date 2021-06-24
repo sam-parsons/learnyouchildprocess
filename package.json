@@ -1,20 +1,20 @@
 {
-  "name": "learnyouchildprocesses",
+  "name": "learnyouchildprocess",
   "version": "1.4.0",
-  "main": "learnyouchildprocesses.js",
+  "main": "learnyouchildprocess.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sam-parsons/learnyouchildprocesses.git"
+    "url": "git+https://github.com/sam-parsons/learnyouchildprocess.git"
   },
   "scripts": {
     "test": "tape test/*.js"
   },
   "license": "BSD-3-Clause",
-  "bin": "./learnyouchildprocesses.js",
+  "bin": "./learnyouchildprocess.js",
   "bugs": {
-    "url": "https://github.com/sam-parsons/learnyouchildprocesses/issues"
+    "url": "https://github.com/sam-parsons/learnyouchildprocess/issues"
   },
-  "homepage": "https://github.com/sam-parsons/learnyouchildprocesses#readme",
+  "homepage": "https://github.com/sam-parsons/learnyouchildprocess#readme",
   "dependencies": {
     "workshopper-adventure": "7.0.0",
     "workshopper-exercise": "3.0.3"
