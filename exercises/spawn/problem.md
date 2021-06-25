@@ -12,10 +12,18 @@ const spawn = require('spawn');
 const echoProcess = spawn('echo', ['"hello world"', '>', 'index.txt']);
 ```
 
-The return value of `spawn` is an instance of `ChildProcess`, which is a stream built on top of the `EventEmitter` class. The previous example would be equivalent to executing `echo "hello world" > index.txt` in the terminal.
+The return value of `spawn` is an instance of `ChildProcess`, which is an object that exposes streams with the properties `stdin`, `stdout`, `stderr`.
 
-We can set listeners for data coming from the child process' `stdout` and `stderr` streams. We can pipe data into the child process through the `stdin` stream. This allows us to create i/o pipelines between multiple processes.
+```js
+const spawn = require('spawn');
+const lsProcess = spawn('ls');
+
+assert.ok(typeof lsProcess.stdout.pipe === 'function');
+assert.ok(typeof lsProcess.stdout.on === 'function');
+```
+
+We can also set listeners for data coming from the child process' `stdout` and `stderr` streams. We can pipe data into the child process through the `stdin` stream. This allows us to create IO pipelines between multiple processes.
 
 _Objective_
 
-You will be given a value though `process.argv[2]`. Create a new child process with `spawn` and use the `echo` command to print the value from `process.argv[2]` to the child process' `stdout`. Log the `stdout` data events on the child process instance in the parent.
+You will be given a value though `process.argv[2]`. Create a new child process with `spawn` and use the `echo` terminal command to print the value from `process.argv[2]` to the child process' `stdout`. `console.log` the `stdout` data from the child process instance in the parent.
