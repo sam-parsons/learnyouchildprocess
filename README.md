@@ -2,9 +2,7 @@
 
 **An intro to Node.js child processes via a set of self-guided workshops.**
 
-## What is learnyouchildprocess?
-
-![Learn You The Node.js For Much Win!](learnyouchildprocess.png)
+![learnyouchildprocess](https://github.com/sam-parsons/learnyouchildprocess/blob/master/learnyouchildprocess.png?raw=true)
 
 <b><code>learnyouchildprocess</code></b> is a Node.js package that contains a series of workshop lessons which will teach you the basics of creating and communicating with Node.js child processes. The lessons will cover the most used parts of Node's `child_process` API, namely the `spawn`, `exec`, `execFile`, and `fork` methods.
 
