@@ -8,4 +8,4 @@ The most important difference is that `exec` abstracts away the need to use stre
 
 _Objective_
 
-You will be provided an absolute path to a file as the value of process.argv[2]. Using the `exec` method, call the `cat` terminal command with the file path as the argument. `cat` will print the contents of the file to stdout. However, instead of that, take the ouput of `cat` and pipe it to the `wc` terminal command, which will return a word count of the input. The previous should be composed into a single command. When the process is finished, `console.log` the `stdout` from the child process.
+You will be provided an absolute path to a file as the value of `process.argv[2]`. Using the `exec` method, call the `cat` terminal command with the file path as the argument. `cat` will print the contents of the file to stdout. However, instead of that, take the ouput of `cat` and pipe it to the `wc` terminal command, which will return a word count of the input. These two steps should be composed into a single command string with a UNIX pipe command. When the process is finished, `console.log` the `stdout` from the child process.
