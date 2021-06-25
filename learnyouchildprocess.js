@@ -9,8 +9,8 @@ function fpath(f) {
 const exerciseDir = fpath('./exercises/');
 
 const shop = workshopper({
-  name: 'learnyouchildprocesses',
-  title: 'LEARNYOUCHILDPROCESSES',
+  name: 'learnyouchildprocess',
+  title: 'LEARNYOUCHILDPROCESS',
   appDir: __dirname,
   exerciseDir: exerciseDir,
   header: require('workshopper-adventure/default/header'),
