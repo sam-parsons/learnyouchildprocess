@@ -10,7 +10,7 @@
     "test": "tape test/*.js"
   },
   "license": "BSD-3-Clause",
-  "bin": "./learnyouchildprocess.js",
+  "bin": "./bin/cmd.js",
   "bugs": {
     "url": "https://github.com/sam-parsons/learnyouchildprocess/issues"
   },
