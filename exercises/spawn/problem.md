@@ -1,6 +1,6 @@
 # SPAWN
 
-It is highly recommended you are familiar with streams before attempting any exercises in `learnyouchildprocesses`. Check out `learnyounode` and `stream-adventure` to brush up on the basic of Node and streams.
+It is highly recommended you are familiar with streams before attempting any exercises in `learnyouchildprocess`. Check out `learnyounode` and `stream-adventure` to brush up on the basic of Node and streams.
 
 Node's `child_process` module exposes four main methods for creating and manipulating child processes - `spawn`, `exec`, `execFile`, and `fork`. We will explore the `spawn` method in this exercise.
 
